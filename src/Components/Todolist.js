@@ -44,15 +44,11 @@ const ToDoList = () => {
         getTodo();
       })
   }
-  const deleteTodo = (id) => {
-    axios.delete(`http://localhost:3001/posts/${id}`)
+  function deleteTodo(id) {
+    axios.delete(`  http://localhost:3001/posts/${id}`)
       .then(() => {
-        getTodo();
+        getTodo()
       })
-      .catch(() => {
-        alert('not deleted')
-      })
-
   }
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', flexDirection: 'column' }}>

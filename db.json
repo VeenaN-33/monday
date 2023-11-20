@@ -1,0 +1,51 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "veena",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "title": "",
+      "id": 6
+    },
+    {
+      "title": "nature",
+      "imageUrl": "https://th.bing.com/th/id/R.ae87891b3dde7b28712b75d14342f1a5?rik=2ZT%2baXLkZYcxWg&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f01%2fnature-wallpaper-27.jpg&ehk=jIVFSOxLN%2fQKs4hEfZHNWAeXoeXkeEXooP%2fTy9Vwkek%3d&risl=&pid=ImgRaw&r=0",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "title": "monday",
+      "id": 8
+    },
+    {
+      "title": "",
+      "id": 9
+    },
+    {
+      "title": "day",
+      "completed": false,
+      "id": 10
+    },
+    {
+      "title": "local",
+      "id": 11
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
